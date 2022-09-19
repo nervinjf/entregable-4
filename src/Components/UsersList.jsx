@@ -18,11 +18,11 @@ const UsersList = ({ users, selectUsers, getUsers }) => {
                         </div>
                         <div className='container-data'>
                             <p className='subtitle'>CORREO</p>
-                            <p>{user.email}</p>
+                            <p className='title'>{user.email}</p>
                             <p className='subtitle'>PASSWORD</p>
-                            <p>{user.password}</p>
+                            <p className='title'>{user.password}</p>
                             <p className='subtitle'>CUMPLEAÑOS</p>
-                            <p>{user.birthday}</p>
+                            <p className='title'>{user.birthday}</p>
                         </div>
                         <div className='container-edit-delete'>
                             <div className='edit-delete'>
