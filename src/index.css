@@ -30,6 +30,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background: #ffffff;
+  color: #000;
 }
 
 h1 {
@@ -55,16 +57,6 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #000;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-}
-
 
 @media(max-width: 390px){
   form{
@@ -82,6 +74,7 @@ button:focus-visible {
       padding: 15px 10px;
       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
       background: #ffffff;
+      color: #000;
   }
   .title{
     color: black;
