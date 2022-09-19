@@ -57,10 +57,37 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #ffffff;
+    color: black;
     background-color: #ffffff;
   }
   a:hover {
     color: #747bff;
+  }
+}
+
+
+@media(max-width: 390px){
+  form{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 20px;
+  }
+}
+
+@media(max-width: 414px){
+  form{
+    width: 200px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 20px;
+  }
+  .forms-cars{
+    display: flex;
+    flex-direction: column;
   }
 }
