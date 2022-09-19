@@ -17,7 +17,7 @@ const UsersForm = ({ getUsers, userSelected, deselectuser }) => {
             // Actualizando un usuario
             axios.put(`https://users-crud1.herokuapp.com/users/${data.id}/`, data)
             .then(() => getUsers())
-            
+
         }else{
             //Crenado un usuario
             axios.post(`https://users-crud1.herokuapp.com/users/`, data)
@@ -58,7 +58,7 @@ const UsersForm = ({ getUsers, userSelected, deselectuser }) => {
             </div>
             <div className='forms-cars input'>
                 <label htmlFor="birthday"><i class="fa-solid fa-cake-candles"></i></label>
-                <input type="date" id="birthday" {...register("birthday")}/>
+                <input type="date" id="birthday" placeholder="Cumpleaños" {...register("birthday")}/>
             </div>
             <div className='button'>
                 <button className='submit-form'>submit</button>
